@@ -1,0 +1,33 @@
+{
+  "name": "cscdn-upload",
+  "version": "1.0.0",
+  "description": "Back end point for uploading to cscdn.net.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesStover/cscdn-upload.git"
+  },
+  "keywords": [
+    "cscdn",
+    "upload",
+    "back",
+    "end",
+    "nodejs"
+  ],
+  "author": "Charles Stover",
+  "bugs": {
+    "url": "https://github.com/CharlesStover/cscdn-upload/issues"
+  },
+  "homepage": "https://github.com/CharlesStover/cscdn-upload#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "nodemon": "^1.17.5",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}
