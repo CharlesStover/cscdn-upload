@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/CharlesStover/cscdn-upload#readme",
   "devDependencies": {
-    "@types/node": "^10.5.2",
+    "@types/node": "^12.6.2",
     "nodemon": "^1.17.5",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
